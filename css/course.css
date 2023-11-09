@@ -1,0 +1,138 @@
+body {
+  background-color: #f0f0f0;
+}
+/* radio buttons ----------------------------------------------------------- */
+.base input[id*="slide"] {display:none;}
+/* Course Common ----------------------------------------------------------- */
+.base {
+  width: 100%; height: 400px;
+  margin: 0 auto; margin-top: 20px;
+  position: relative;
+}
+.base>ul {
+  width: 1000px; height: 400px; overflow: hidden;
+  position: absolute; left: 100px; top: 0px;
+  white-space: nowrap;
+  /* background-color: orange; */
+}
+.base .left {
+  width: 100px; height: 400px; vertical-align: center;
+  background: url('../img/left.png') center center no-repeat;
+  background-size: 50%; cursor: pointer;
+  position: absolute; left: 0px; top: 0px;
+}
+.base .rigt {
+  width: 100px; height: 400px; vertical-align: center;
+  background: url('../img/right.png') center center no-repeat;
+  background-size: 50%; cursor: pointer;
+  position: absolute; right: 0px; top: 0px;
+}
+.base .box {
+  width: 1000px; height: 400px;
+  display: flex; justify-content: center;
+}
+.base .box div {
+  width: 300px; height: 400px; margin: 0px 10px; padding: 20px;
+  border-radius: 10px;
+  background-color: white; background-repeat: no-repeat;
+  background-position: center top; background-size: 100%;
+}
+/* Language Course --------------------------------------------------------- */
+.lang {
+  width: 1200px; height: 580px; margin: 0px auto 0px;
+  /* background-color: pink; */
+}
+.lang h1 {
+  padding-top: 100px; text-align: center;
+}
+.lang li {
+  width: 1000px; height: 400px; overflow: hidden;
+  display: inline-block; transition: all .5s;
+}
+.lang .box div p {
+  padding-top: 200px; line-height: 25px;
+}
+.lang .box .card1 {background-image: url('../img/courselang0.png');}
+.lang .box .card2 {background-image: url('../img/courselang1.png');}
+.lang .box .card3 {background-image: url('../img/courselang2.png');}
+.lang .box .card4 {background-image: url('../img/courselang3.png');}
+.lang .box .card5 {background-image: url('../img/courselang4.png');}
+.lang .box .card6 {background-image: url('../img/courselang5.png');}
+.lang .box .card7 {background-image: url('../img/courselang6.png');}
+.lang .box .card8 {background-image: url('../img/courselang7.png');}
+.lang .box .card9 {background-image: url('../img/courselang8.png');}
+
+.lang .base input[id="slide01"]:checked ~ ul li {transform:translateX(0%);}
+.lang .base input[id="slide02"]:checked ~ ul li {transform:translateX(-100%);}
+.lang .base input[id="slide03"]:checked ~ ul li {transform:translateX(-200%);}
+
+.lang [class*="page"] {display: none;}
+.lang .base input[id="slide01"]:checked ~ .page1 {display: block;}
+.lang .base input[id="slide02"]:checked ~ .page2 {display: block;}
+.lang .base input[id="slide03"]:checked ~ .page3 {display: block;}
+/* Algorithm course -------------------------------------------------------- */
+.algo {
+  width: 1200px; height: 500px; margin: 10px auto 0px;
+  /* background-color: lightblue; */
+}
+.algo h1 {
+  padding-top: 20px; text-align: center;
+}
+.algo li {
+  width: 1000px; height: 400px; overflow: hidden;
+  display: inline-block; transition: all .5s;
+}
+.algo .box div p {
+  padding-top: 130px; line-height: 25px;
+}
+.algo .box div p span {
+  font-size: 27px; font-style: italic;
+  line-height: 60px; font-weight: 900;
+}
+.algo .box .card1 {background-image: url('../img/coursealgo1.png');}
+.algo .box .card2 {background-image: url('../img/coursealgo2.png');}
+.algo .box .card3 {background-image: url('../img/coursealgo3.png');}
+.algo .box .card4 {background-image: url('../img/coursealgo4.png');}
+.algo .box .card5 {background-image: url('../img/coursealgo5.png');}
+.algo .box .card6 {background-image: url('../img/coursealgo6.png');}
+.algo .box .card7 {background-image: url('../img/coursealgo7.png');}
+.algo .box .card8 {background-image: url('../img/coursealgo8.png');}
+.algo .box .card9 {background-image: url('../img/coursealgo9.png');}
+
+.algo .base input[id="slide04"]:checked ~ ul li {transform:translateX(0%);}
+.algo .base input[id="slide05"]:checked ~ ul li {transform:translateX(-100%);}
+.algo .base input[id="slide06"]:checked ~ ul li {transform:translateX(-200%);}
+
+.algo [class*="page"] {display: none;}
+.algo .base input[id="slide04"]:checked ~ .page4 {display: block;}
+.algo .base input[id="slide05"]:checked ~ .page5 {display: block;}
+.algo .base input[id="slide06"]:checked ~ .page6 {display: block;}
+/* Application course ------------------------------------------------------ */
+body div.app {
+  width: 1024px; margin: 10px auto 0px;
+  /* background-color: pink; */
+}
+body div.app h1 {
+  padding-top: 20px; text-align: center;
+}
+body div.app div {
+  width: 940px; height: 400px; margin: 20px auto 20px; padding: 0px;
+  border-radius: 20px;
+  background-color: white;
+  background-size: 100%;
+}
+body div.app div.box1 {
+  background-image: url('../img/app1.png');
+}
+body div.app div.box2 {
+  background-image: url('../img/app2.png');
+}
+body div.app div.box3 {
+  background-image: url('../img/app3.png');
+}
+body div.app div.box4 {
+  background-image: url('../img/app4.png');
+}
+body div.app div.box5 {
+  background-image: url('../img/app5.png');
+}

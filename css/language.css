@@ -1,0 +1,60 @@
+section {
+  width: 100%;
+  /* background-color: pink; */
+  background-image: url('../img/bg_pattern2.png');
+  background-size: 100%;
+  background-attachment: fixed;
+}
+section div.lang_top {
+  width: 100%; height: 500px;
+  background: black url('../img/bg_langtop.png') no-repeat center;
+}
+section div.lang_top div {
+  width: 700px; height: 500px; margin: 0px auto;
+  /* background-color: white; */
+  display: flex; flex-direction: column; justify-content: center;
+}
+section div.lang_top div p {
+  margin: 0px auto; text-align: center;
+  color: white;
+  font-size: 35px; font-weight: 900; line-height: 60px;
+  font-family: 'Song Myung', serif;
+}
+section div.lang_top div p span {
+  font-family: 'Song Myung', serif; color: darkorange;
+}
+/* ------------------------------------------------------------------------- */
+section div.lang_title {
+  width: 100%; height: 80px; display: flex;
+}
+section div.lang_title div {
+  width: 100%; height: 80px; display: flex;
+  justify-content: center; align-items: center;
+}
+section div.lang_title div p {
+  font-size: 30px; font-weight: 900;
+  font-family: 'Song Myung', serif;
+}
+/* ------------------------------------------------------------------------- */
+section div.lang_line {
+  width: 100%; height: 400px;
+  display: flex;
+}
+section div.lang_line div {
+  width: 100%; height: 360px;
+  border-radius: 15px; box-shadow: 1px 1px 2px 2px #c8c8c8;
+  background-color: white;
+}
+section div.lang_line div.line_L {margin: 20px 20px 20px 50px;}
+section div.lang_line div.line_R {margin: 20px 50px 20px 20px;}
+/* box inner --------------------------------------------------------------- */
+section div.lang_line div div {
+  width: 80%; height: 360px; margin: 0 auto; padding: 10px;
+  display: flex; flex-direction: column; align-items: center;
+  box-shadow: none; border-radius: 0;
+  line-height: 25px;
+  /* background-color: orange; */
+}
+section div.lang_line div div img {
+  height: 150px;
+}

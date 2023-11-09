@@ -1,0 +1,18 @@
+section .title {
+  width: 1000px; height: 200px; margin: 0 auto;
+  /* background-color: orange; */
+}
+section .title p {
+  padding-top: 120px;
+  font-size: 35px; font-weight: 900; text-align: center;
+  font-family: 'Song Myung', serif;
+}
+section img {
+  display: block; width: 800px; margin: 0 auto;
+  border: 2px solid #f0f0f0;
+  border-radius: 30px;
+}
+section>p {
+  width: 800px; padding: 20px; margin: 0 auto;
+  line-height: 30px; text-align: left;
+}

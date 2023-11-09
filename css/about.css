@@ -1,0 +1,43 @@
+body>div {
+  height: 500px; position: relative; margin-top: 10px;
+}
+body>div img {
+  display: block; height: 500px; margin: 0px auto; overflow: hidden;
+}
+body>div div {
+  display: flex; justify-content: center; width: 100%;
+  position: absolute; top: 0px;
+}
+body>div div p {
+  font-size: 35px; font-weight: 900;
+  font-family: 'Song Myung', serif;
+}
+body>div div p span {font-family: 'Song Myung', serif; color: red;}
+/*===========================================================================*/
+div.zone1 {
+  height: 580px;
+  background: white url('../img/about1.png') no-repeat center;
+}
+div.zone1 div p {margin-top: 120px;}
+/*===========================================================================*/
+div.zone2 {
+  background: #f0f0f0 url('../img/about2.png') no-repeat center;
+}
+div.zone2 div p {margin-top: 40px;}
+/*===========================================================================*/
+div.zone3 {
+  background: white url('../img/about3.png') no-repeat center;
+}
+div.zone3 div p {margin-top: 120px;}
+/*===========================================================================*/
+div.zone4 {
+  background: #000000 url('../img/about4.png') no-repeat center;
+}
+div.zone4 div {height: 100%; align-items: center;}
+div.zone4 div p {color: white; line-height: 50px; text-align: center;}
+/*===========================================================================*/
+div.zone5 {
+  background: white url('../img/about5.png') no-repeat center;
+}
+div.zone5 div {height: 100%; align-items: center;}
+div.zone5 div p {color: black; line-height: 50px; text-align: center;}
