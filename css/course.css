@@ -36,6 +36,18 @@ body {
   border-radius: 10px;
   background-color: white; background-repeat: no-repeat;
   background-position: center top; background-size: 100%;
+  position: relative;
+}
+.base .box div .button {
+  width: 80px; height: 30px; position: absolute; padding: 0px;
+  background-color: white; top: 165px; right: 5px;
+  display: flex; justify-content: center; align-items: center;
+  border-style: solid; border-color: lightgray;
+  color: gray;
+}
+.base .box div .button:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
 }
 /* Language Course --------------------------------------------------------- */
 .lang {
