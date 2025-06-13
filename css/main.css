@@ -7,13 +7,31 @@ body {
 img {
   display: block;
 }
+.inner {
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+/* header ********************************************************************/
 header {
   background-color: #f6f5f0;
   border-bottom: 1px solid #c8c8c8;
 }
-header .inner {
-  width: 1000px;
+header>.inner {
   height: 120px;
-  margin: 0 auto;
+}
+header img {
+  position: absolute;
+  top: 0; bottom: 0;
+  margin: auto 0;
+}
+/* swiper ********************************************************************/
+.swiper>.inner {
+  height: 400px;
+  background-color: orange;
+}
+/* 1st block *****************************************************************/
+.block1>.inner {
+  height: 500px;
   background-color: lightgreen;
 }
